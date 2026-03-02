@@ -68,4 +68,5 @@ xlabel('Time','interpreter','latex','fontsize',14)
 ylabel('Population','interpreter','latex','fontsize',14)
 legend('Prey','Predator','interpret','latex')
 
+
 clear
