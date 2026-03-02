@@ -58,4 +58,5 @@ ylabel('$\lambda_{max}$','interpreter','latex','fontsize',14)
 title(['Largest Lyapunov Exponent for Henon Map with $b$ = ',num2str(b),' as function of $a$'],...
     'interpreter','latex','fontsize',11)
 
+
 clear
