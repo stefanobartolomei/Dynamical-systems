@@ -1,11 +1,11 @@
 The folder contains a basic analysis for the main examples of Dynamical systems (discrete and continuos), as
 1. [Logistic Map](https://github.com/stefanobartolomei/Dynamical-systems/tree/4932a71dd50076628c1b7621d588d14f78d15437/Logistic%20Map): one-dimensional discrete map $x_{n+1} = r x_n (1-x_n)$.
 2. [Henon Map](https://github.com/stefanobartolomei/Dynamical-systems/tree/30fd3a662d751100b4634e8574f1ee21de1f66d8/Henon%20Map): two-dimensional discrete map $x_{n+1}= 1 + y_n - a^2 x_n$, $y_{n+1} = b x_n$.
-3. [Lotka-Volterra Model](https://github.com/stefanobartolomei/Dynamical-systems/tree/dc2d3442e881058e3d234d36ea8498266cd87639/Lotka-Volterra%20Model): two-dimensional continuos model, describing predator-prey dynamics, $\dot{x} = K_x x (1-y)$, $\dot{y} = -K_y y (1 - x)$
+3. [Lotka-Volterra Model](https://github.com/stefanobartolomei/Dynamical-systems/tree/dc2d3442e881058e3d234d36ea8498266cd87639/Lotka-Volterra%20Model): two-dimensional continuos model, describing predator-prey dynamics, $\dot{x} = K_x x (1-y)$, $\dot{y} = -K_y y (1 - x)$.
 4. [Lorenz Model](https://github.com/stefanobartolomei/Dynamical-systems/tree/dc2d3442e881058e3d234d36ea8498266cd87639/Lorenz%20Model): three-dimensional continuos model $\dot{x} = \sigma(y-x)$, $\dot{y} = rx - y - xz$, $\dot{z} =  xy - bz$.
 5. In [Other Dynamical Systems](https://github.com/stefanobartolomei/Dynamical-systems/tree/dc2d3442e881058e3d234d36ea8498266cd87639/Other%20Dynamical%20Systems) could be found others model, i.e. [Standard Map.m](https://github.com/stefanobartolomei/Dynamical-systems/blob/dc2d3442e881058e3d234d36ea8498266cd87639/Other%20Dynamical%20Systems/StandardMap.m).
 
 Additionally, in the folder are some examples of Synchronization phenomena for coupled chaotic maps:
-1. [Synchronization of coupled map](https://github.com/stefanobartolomei/Dynamical-systems/tree/dc2d3442e881058e3d234d36ea8498266cd87639/Synchronization%20of%20coupled%20map) in (1+1)-dimension lattice
+1. [Synchronization of coupled map](https://github.com/stefanobartolomei/Dynamical-systems/tree/dc2d3442e881058e3d234d36ea8498266cd87639/Synchronization%20of%20coupled%20map) in (1+1)-dimension lattice.
 2. [Spatio-Temporal synchronization of coupled maps](https://github.com/stefanobartolomei/Dynamical-systems/tree/dc2d3442e881058e3d234d36ea8498266cd87639/Spatio-Temporal%20synchronization%20of%20coupled%20maps) in (2+1)-dimension lattice.
 Typical chaotic maps used are Bernoulli map $f(x) = 2x \ \text{mod}(1)$ and Tend map ($f(x) = ax$ if $x \in [0,1/2]$ or $f(x) = a(1-x)$ if $x\in(1/2,1]$).
