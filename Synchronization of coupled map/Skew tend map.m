@@ -13,7 +13,7 @@ gamma = 0.22; % fix value
 x = zeros(T,1); 
 y = zeros(T,1);
 
-% inizialite varaibles and simulate
+% inizialite variables and simulate
 x(1) = rand();
 y(1) = rand();
 for t = 1:T-1
@@ -30,7 +30,6 @@ xlabel('x','interpreter','latex','fontsize',16)
 ylabel('y','interpreter','latex','fontsize',16)
 title(['Coupled skew tend map with $p$ = ',num2str(p),' and coupling $\gamma$ = ',num2str(gamma)],...
     'interpreter','latex','fontsize',13)
-%saveas(gcf,'C:\Users\sbart\Desktop\università\Sistemi dinamici e Teoria del caos\Dispense\sincro mappe down.jpg')
 
 figure
 subplot(2,1,1)
@@ -42,7 +41,6 @@ subplot(2,1,2)
 plot(log(abs(0.5*(x-y))))
 xlabel('Time','interpreter','latex')
 ylabel('$\ln\left|v\right|$','interpreter','latex','fontsize',14)
-%saveas(gcf,'C:\Users\sbart\Desktop\università\Sistemi dinamici e Teoria del caos\Dispense\sincro mappe down v.jpg')
 
 clear
 % skew map
@@ -52,4 +50,5 @@ if z < p
 else
     znew = (1 - z)/(1 - p);
 end
+
 end
