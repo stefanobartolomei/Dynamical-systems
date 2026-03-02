@@ -19,7 +19,7 @@ W = zeros(T,N);
 
 for i = 1:N 
     
-    % inizialite varaibles and simulate
+    % inizialite variables and simulate
     x(1) = rand();
     y(1) = rand();
     
@@ -38,7 +38,6 @@ xlabel('Time','interpreter','latex','fontsize',16)
 ylabel('$\left|x - y\right|$','interpreter','latex','fontsize',16)
 title('Syncronization Error','interpreter','latex','fontsize',18)
 legend([repmat('$\gamma$ = ',N,1) num2str(gamma)],'interpreter','latex')
-%saveas(gcf,'C:\Users\sbart\Desktop\università\Sistemi dinamici e Teoria del caos\Dispense\Bernoulli Sincro.jpg')
 
 figure
 subplot(2,2,1)
@@ -56,5 +55,5 @@ title(['$\gamma$ = ',num2str(gamma(4))],'interpreter','latex')
 subplot(2,2,4)
 plot(W(:,5),'LineWidth',1)
 title(['$\gamma$ = ',num2str(gamma(5))],'interpreter','latex')
-%saveas(gcf,'C:\Users\sbart\Desktop\università\Sistemi dinamici e Teoria del caos\Dispense\Bernoulli Sincro 4.jpg')
+
 clear
