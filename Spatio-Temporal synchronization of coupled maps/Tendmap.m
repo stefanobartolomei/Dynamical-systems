@@ -67,4 +67,5 @@ if z >= 0.5
 else
     znew = 1 + 2*z;
 end
+
 end
