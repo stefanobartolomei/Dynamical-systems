@@ -37,7 +37,7 @@ xlabel('Time','interpreter','latex','fontsize',16)
 ylabel('$\left|x - y\right|$','interpreter','latex','fontsize',16)
 title('Syncronization Error','interpreter','latex','fontsize',18)
 legend([repmat('$\gamma$ = ',N,1) num2str(gamma)],'interpreter','latex')
-% saveas(gcf,'C:\Users\sbart\Desktop\università\Sistemi dinamici e Teoria del caos\Dispense\Tenda Sincro.jpg')
+
 figure
 subplot(2,2,1)
 plot(W(:,1))
@@ -54,7 +54,7 @@ title(['$\gamma$ = ',num2str(gamma(3))],'interpreter','latex')
 subplot(2,2,4)
 plot(W(:,4))
 title(['$\gamma$ = ',num2str(gamma(4))],'interpreter','latex')
-% saveas(gcf,'C:\Users\sbart\Desktop\università triennale\Sistemi dinamici e Teoria del caos\Dispense\Tenda Sincro 4.jpg')
+
 clear
 % skew map
 function znew = f(z,p)
@@ -63,4 +63,5 @@ if z < p
 else
     znew = (1 - z)/(1 - p);
 end
+
 end
